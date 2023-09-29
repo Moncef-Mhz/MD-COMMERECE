@@ -10,7 +10,7 @@ function categories() {
       </div>
       <div className="my-5 grid grid-cols-1  md:grid-cols-2 w-full h-full gap-5">
         {category.map((item) => (
-          <div className="w-full shadow-md  bg-black/40 md:last:col-span-2 lg:last:col-span-1 lg:first:row-span-2 lg:first:h-full   relative group h-[350px] cursor-pointer overflow-hidden">
+          <div key={item.id} className="w-full shadow-md  bg-black/40 md:last:col-span-2 lg:last:col-span-1 lg:first:row-span-2 lg:first:h-full   relative group h-[350px] cursor-pointer overflow-hidden">
             <img
               src={item.img}
               alt={item.title}
