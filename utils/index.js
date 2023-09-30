@@ -52,4 +52,22 @@ const productItems = [
   },
 ];
 
-export { navlinks, category, productItems };
+const collectionItems = [
+  {
+    id: 1,
+    title: "sport",
+    img: "https://images.unsplash.com/photo-1630933111210-e54386445dd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
+  },
+  {
+    id: 2,
+    title: "classic",
+    img: "https://images.unsplash.com/photo-1640032004545-a2ee4d4b8843?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=752&q=80",
+  },
+  {
+    id: 3,
+    title: "old money",
+    img: "https://images.unsplash.com/photo-1675875053102-bc894884c564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80",
+  },
+];
+
+export { navlinks, category, productItems, collectionItems };

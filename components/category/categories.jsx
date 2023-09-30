@@ -5,12 +5,17 @@ function categories() {
   return (
     <div className="px-10 md:px-[72px]">
       <div className="flex w-full justify-between items-center my-3 md:my-5">
-        <h1 className="text-3xl font-lato font-black">Shop by category</h1>
+        <h1 className="lg:text-3xl text-xl font-lato font-black">
+          Shop by category
+        </h1>
         <p className="text-blue-400 cursor-pointer">See more {">"}</p>
       </div>
       <div className="my-5 grid grid-cols-1  md:grid-cols-2 w-full h-full gap-5">
         {category.map((item) => (
-          <div key={item.id} className="w-full shadow-md  bg-black/40 md:last:col-span-2 lg:last:col-span-1 lg:first:row-span-2 lg:first:h-full   relative group h-[350px] cursor-pointer overflow-hidden">
+          <div
+            key={item.id}
+            className="w-full shadow-md  bg-black/40 md:last:col-span-2 lg:last:col-span-1 lg:first:row-span-2 lg:first:h-full   relative group h-[350px] cursor-pointer overflow-hidden"
+          >
             <img
               src={item.img}
               alt={item.title}
